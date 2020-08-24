@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.js": "/flexblog_app/static/js/main.d681e74a.chunk.js",
+    "main.js.map": "/flexblog_app/static/js/main.d681e74a.chunk.js.map",
+    "runtime-main.js": "/flexblog_app/static/js/runtime-main.c07643f0.js",
+    "runtime-main.js.map": "/flexblog_app/static/js/runtime-main.c07643f0.js.map",
+    "static/js/2.cd2779da.chunk.js": "/flexblog_app/static/js/2.cd2779da.chunk.js",
+    "static/js/2.cd2779da.chunk.js.map": "/flexblog_app/static/js/2.cd2779da.chunk.js.map",
+    "index.html": "/flexblog_app/index.html",
+    "precache-manifest.a63cbdfe15502fcefb951021a17cb1e2.js": "/flexblog_app/precache-manifest.a63cbdfe15502fcefb951021a17cb1e2.js",
+    "service-worker.js": "/flexblog_app/service-worker.js",
+    "static/js/2.cd2779da.chunk.js.LICENSE.txt": "/flexblog_app/static/js/2.cd2779da.chunk.js.LICENSE.txt",
+    "static/media/produtos1.jpg": "/flexblog_app/static/media/produtos1.fde00895.jpg",
+    "static/media/produtos2.jpg": "/flexblog_app/static/media/produtos2.8797fe04.jpg",
+    "static/media/produtos3.jpg": "/flexblog_app/static/media/produtos3.428068dc.jpg",
+    "static/media/sobre1.jpg": "/flexblog_app/static/media/sobre1.2d4a329f.jpg",
+    "static/media/sobre2.jpg": "/flexblog_app/static/media/sobre2.a1f7d057.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c07643f0.js",
+    "static/js/2.cd2779da.chunk.js",
+    "static/js/main.d681e74a.chunk.js"
+  ]
+}
