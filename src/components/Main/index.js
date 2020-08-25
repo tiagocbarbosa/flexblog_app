@@ -9,13 +9,9 @@ function Main() {
   return (
     <>
         <AboutSection />
-
         <ProductsSection />
-
         <PriceSection />
-
         <QualitySection />
-
         <NewsletterSection />
     </>
   )
