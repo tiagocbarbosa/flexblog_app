@@ -41,12 +41,10 @@ function AboutSection() {
             <Paragraph>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão das condições inegavelmente apropriadas objetivos.</Paragraph>
             <Paragraph>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão das condições inegavelmente apropriadas objetivos.</Paragraph>
         </AboutWrapper>
-
         <ImageWrapper>
             {/* Referencing a local image with React: https://stackoverflow.com/questions/39999367/how-do-i-reference-a-local-image-in-react */}
             <img src={require('../../../assets/img/sobre1.jpg')} alt='Sobre 1' />
         </ImageWrapper>
-
         <ImageWrapper>
             <img src={require('../../../assets/img/sobre2.jpg')} alt='Sobre 2' />
         </ImageWrapper>
