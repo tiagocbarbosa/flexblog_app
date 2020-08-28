@@ -22,6 +22,11 @@ const InnerWrapper = styled.div`
     flex: 1 1 175px;
     margin: 0 10px;
     border-top: 5px solid;
+    transition: all .2s ease-in-out;
+
+    &:hover {
+        transform: scale(1.05);
+    }
 `
 
 const ProductTitle = styled.h2`
