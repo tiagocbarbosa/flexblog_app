@@ -6,50 +6,52 @@ const Container = styled.section`
     padding: 60px;
     display: flex;
     flex-wrap: wrap;
+    align-items: flex-end;
 `
 
 const Wrapper = styled.div`
-    padding: 20px 40px;
-    border: 3px solid white;
-    margin: 10px;
     flex: 1;
+    border: 4px solid white;
+    padding: 20px;    
+    margin: 10px;
 `
 
 const Title = styled.h2`
     font-size: 3em;
     color: #a4a4a4;
     text-align: center;
+    margin-top: 20px;
 `
 
 const Span = styled.span`
     max-width: 300px;
-    font-size: 2.5em;
-    font-weight: bold;
-    text-align: center;
+    margin: 20px auto;
     display: block;
-    padding: 10px 0;
+    font-size: 2.5em;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px 0 5px 0;
     border-top: 3px solid white;
-    border-bottom: 3px solid white;
-    margin: 0 auto;
+    border-bottom: 3px solid white;    
 `
 
 const Sup = styled.sup`
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 `
 
 const UnorderedList = styled.ul`
     max-width: 300px;
-    padding: 20px 0;
-    margin: 0 auto;
+    margin: 20px auto;
+    font-size: 1.25em;
+    font-style: italic;
+    color: #7c7c7c;
 `
 
 const ListItem = styled.li`
-    font-style: italic;
-    color: #7c7c7c;
-    margin-bottom: 5px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 15px;
 
     &::after {
         content: '';
@@ -59,6 +61,19 @@ const ListItem = styled.li`
         background: #2c70ff;
         border-radius: 50%;
     }
+`
+
+const Button = styled.a`
+    max-width: 300px;
+    display: block;
+    margin: 20px auto;
+    border: 4px solid;
+    color: #222222;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2.25em;
+    padding: 15px 0;
+    text-align: center;
 `
 
 function PriceSection() {
@@ -73,7 +88,7 @@ function PriceSection() {
                 <ListItem>Conteúdo Secreto</ListItem>
                 <ListItem>Suporte 24h</ListItem>
             </UnorderedList>
-            <a href='#'>Comprar</a>
+            <Button href='#'>Comprar</Button>
         </Wrapper>
         <Wrapper>
             <Title>Prata</Title>
@@ -85,7 +100,7 @@ function PriceSection() {
                 <ListItem>Suporte 24h</ListItem>
                 <ListItem>Compra Exclusiva</ListItem>
             </UnorderedList>
-            <a href='#'>Comprar</a>
+            <Button href='#'>Comprar</Button>
         </Wrapper>
         <Wrapper>
             <Title>Ouro</Title>
@@ -98,7 +113,7 @@ function PriceSection() {
                 <ListItem>Compra Exclusiva</ListItem>
                 <ListItem>Download de Itens</ListItem>
             </UnorderedList>
-            <a href='#'>Comprar</a>
+            <Button href='#'>Comprar</Button>
         </Wrapper>
     </Container>
   )
