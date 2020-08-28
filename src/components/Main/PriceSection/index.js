@@ -1,19 +1,31 @@
 import React from 'react'
 import styled from 'styled-components'
 
+const Wrapper = styled.div`
+    flex: 1 1 260px;
+    border: 4px solid white;
+    padding: 20px;    
+    margin: 10px;
+`
+
 const Container = styled.section`
     background-color: #f7f7f7;
     padding: 60px;
     display: flex;
     flex-wrap: wrap;
     align-items: flex-end;
-`
 
-const Wrapper = styled.div`
-    flex: 1;
-    border: 4px solid white;
-    padding: 20px;    
-    margin: 10px;
+    @media(max-width: 800px) {
+        padding-left: 10px;
+        padding-right: 10px;
+
+        ${Wrapper}:nth-child(3) {
+            order: -2;
+        }
+        ${Wrapper}:nth-child(2) {
+            order: -1;
+        }
+    }
 `
 
 const Title = styled.h2`
@@ -32,11 +44,11 @@ const Span = styled.span`
     font-weight: bold;
     padding: 10px 0 5px 0;
     border-top: 3px solid white;
-    border-bottom: 3px solid white;    
-`
+    border-bottom: 3px solid white;
 
-const Sup = styled.sup`
-    font-size: 1.5rem;
+    sup {
+        font-size: 1.5rem;
+    }
 `
 
 const UnorderedList = styled.ul`
@@ -81,7 +93,7 @@ function PriceSection() {
     <Container id='price'>
         <Wrapper>
             <Title>Cobre</Title>
-            <Span><Sup>R$</Sup>19</Span>
+            <Span><sup>R$</sup>19</Span>
             <UnorderedList>
                 <ListItem>Planos Ilimitados</ListItem>
                 <ListItem>Acesso Restrito</ListItem>
@@ -92,7 +104,7 @@ function PriceSection() {
         </Wrapper>
         <Wrapper>
             <Title>Prata</Title>
-            <Span><Sup>R$</Sup>39</Span>
+            <Span><sup>R$</sup>39</Span>
             <UnorderedList>
                 <ListItem>Planos Ilimitados</ListItem>
                 <ListItem>Acesso Restrito</ListItem>
@@ -104,7 +116,7 @@ function PriceSection() {
         </Wrapper>
         <Wrapper>
             <Title>Ouro</Title>
-            <Span><Sup>R$</Sup>79</Span>
+            <Span><sup>R$</sup>79</Span>
             <UnorderedList>
                 <ListItem>Planos Ilimitados</ListItem>
                 <ListItem>Acesso Restrito</ListItem>
