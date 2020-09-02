@@ -19,10 +19,14 @@ const OuterWrapper = styled.div`
 `
 
 const InnerWrapper = styled.div`
-    flex: 1 1 175px;
+    flex: 1 1 200px;
     margin: 0 10px;
     border-top: 5px solid;
     transition: all .2s ease-in-out;
+
+    img {
+        margin-bottom: 20px;
+    }
 
     &:hover {
         transform: scale(1.05);
