@@ -1,19 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "82bfd1d12dd60e5b6a5b998e7e3d8276",
+    "revision": "de30b8f8f4523d561f07c9fc6caef1e3",
     "url": "/flexblog_app/index.html"
   },
   {
-    "revision": "9a8d2652e1451260688a",
-    "url": "/flexblog_app/static/js/2.cd2779da.chunk.js"
+    "revision": "6b4949fd8ce4bd5c2e8b",
+    "url": "/flexblog_app/static/css/main.12a05d95.chunk.css"
+  },
+  {
+    "revision": "939cbcc397a4f8236f47",
+    "url": "/flexblog_app/static/js/2.4dd11cbd.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/flexblog_app/static/js/2.cd2779da.chunk.js.LICENSE.txt"
+    "url": "/flexblog_app/static/js/2.4dd11cbd.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "65395a4de41023701988",
-    "url": "/flexblog_app/static/js/main.d681e74a.chunk.js"
+    "revision": "6b4949fd8ce4bd5c2e8b",
+    "url": "/flexblog_app/static/js/main.96379f81.chunk.js"
   },
   {
     "revision": "7ef06e634258ac625d94",
