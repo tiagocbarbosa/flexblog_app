@@ -100,7 +100,7 @@ function PriceSection() {
                 <ListItem>Conteúdo Secreto</ListItem>
                 <ListItem>Suporte 24h</ListItem>
             </UnorderedList>
-            <Button href='#'>Comprar</Button>
+            <Button href='https://www.linkedin.com/in/tiagocastrobarbosa/'>Comprar</Button>
         </Wrapper>
         <Wrapper>
             <Title>Prata</Title>
@@ -112,7 +112,7 @@ function PriceSection() {
                 <ListItem>Suporte 24h</ListItem>
                 <ListItem>Compra Exclusiva</ListItem>
             </UnorderedList>
-            <Button href='#'>Comprar</Button>
+            <Button href='https://www.linkedin.com/in/tiagocastrobarbosa/'>Comprar</Button>
         </Wrapper>
         <Wrapper>
             <Title>Ouro</Title>
@@ -125,7 +125,7 @@ function PriceSection() {
                 <ListItem>Compra Exclusiva</ListItem>
                 <ListItem>Download de Itens</ListItem>
             </UnorderedList>
-            <Button href='#'>Comprar</Button>
+            <Button href='https://www.linkedin.com/in/tiagocastrobarbosa/'>Comprar</Button>
         </Wrapper>
     </Container>
   )

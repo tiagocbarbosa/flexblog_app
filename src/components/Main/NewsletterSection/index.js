@@ -67,6 +67,12 @@ const Form = styled.form`
   }
 `
 
+const handleClick = (e) => {
+  e.preventDefault()
+  window.open('https://www.linkedin.com/in/tiagocastrobarbosa/')
+  window.scrollTo(0,0)
+}
+
 function NewsletterSection() {
   return (
     <Container id='contact'>
@@ -76,7 +82,7 @@ function NewsletterSection() {
       </Wrapper>
       <Form>
         <input type='text' placeholder='Seu e-mail'></input>
-        <button type='submit'>Assinar</button>        
+        <button type='submit' onClick={handleClick}>Assinar</button>        
       </Form>
     </Container>
   )
