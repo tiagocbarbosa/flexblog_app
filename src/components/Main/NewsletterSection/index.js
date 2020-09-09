@@ -70,7 +70,6 @@ const Form = styled.form`
 const handleClick = (e) => {
   e.preventDefault()
   window.open('https://www.linkedin.com/in/tiagocastrobarbosa/')
-  window.scrollTo(0,0)
 }
 
 function NewsletterSection() {

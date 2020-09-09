@@ -7,28 +7,29 @@ const Container = styled.footer`
   height: 200px;
   align-items: center;
   
-  /* ...or this style
-  background: #2c70ff;
-  padding: 60px; */
-  
+  a {
+    flex: 1;
+    text-align: center;
+    font-size: 2.25em;
+    color: #122ab2;
+    cursor: pointer;
+  }
+
+  /* The a HTML tag could be a paragraph without a link to my LinkedIn. Here is it's CSS:
   p {
     flex: 1;
     text-align: center;
     font-size: 2.25em;
     color: #122ab2;
-
-    /* ...or this style
-    text-align: center;
-    font-size: 2.25em;
-    color: #122ab2;
-    margin-bottom: 10px; */
-  }
+  } */
 `
 
 function Footer() {
   return (
     <Container>
-        <p>FlexBlog © Todos os direitos reservados.</p>
+        <a onClick={() => {
+          window.open('https://www.linkedin.com/in/tiagocastrobarbosa/')
+        }}>Designed by Origamid and developed by tiagocbarbosa.</a>
     </Container>
   )
 }
