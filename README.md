@@ -14,7 +14,7 @@ URL: https://tiagocbarbosa.github.io/flexblog_app/index.html
 ### Characteristics
 * It is responsive.
 * The navbar nav links redirects the page to the About, Products, Price and Contact sections.
-* The form submission and the "a" HTML tags will send the user to my GitHub profile.
+* The form submission and the "a" HTML tags will send the user to my LinkedIn profile.
 
 ------
 
