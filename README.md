@@ -5,7 +5,7 @@ This is FlexBlog web project using React JS technology. This web page was based 
 ## About
 FlexBlog is my personal project created to apply my programming knowledge.
 
-### Tecnologies envolved
+### Technologies involved
 `react-js` `styled-components` `css-flexbox`
 
 ### Website FlexBlog
